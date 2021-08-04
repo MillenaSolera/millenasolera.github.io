@@ -1,0 +1,406 @@
+html {
+    scroll-behavior: smooth;
+    background-color: #EAF2D7;
+}
+
+* {
+padding: 0;
+margin: 0;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.container{
+	position: relative;
+}
+
+.banner{
+	background-color: #FA2477;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+	.banner header{
+		border-bottom: 2px #B10F2E solid;
+		height: 90px;
+		background-color: #B3DEE2;
+	}
+
+		.banner header h2 img{
+		display: block;
+		position: absolute;
+		width: 90px;
+		height: 90px;
+	    }
+
+		.banner header ul{
+			display: flex;
+		    justify-content: center;
+		}
+
+			.banner header li{
+				margin: 0px;
+			    padding-left: 50px;
+			    padding-top: 0px;
+			    padding-right: 50px;
+			    padding-bottom: 20px;
+			    list-style: none;
+			    text-decoration: none;
+			    font-size: 30px;
+			    color: #B7245C;
+			    font-family: 'Orelega One', cursive;
+
+			}
+
+			a.nao-sublinhado{
+				text-decoration: none;
+				color: #B7245C;
+			}	
+
+			.banner header li a:hover{
+				color: #FFF;
+				transition: 0.5s;
+			}
+
+				.banner header ul li{
+					display: block;
+				    margin: 1em;	
+				}
+
+.div-background{
+	height: 400px;
+	background-color: #B3DEE2;
+	background-image: url('SorvetesBackground.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-right: 50px;
+	padding-left: 60px;
+	padding-top: 10px;
+	position: relative;
+	transform: translateY(90px);
+	margin-bottom: 120px;
+}
+
+	.div-background div{
+		top: 20%;
+		transform: translateY(-20%);
+		left: 60%;
+		transform: translateX(-30%);
+		position: absolute;
+	}
+
+		.div-background div a{
+			text-decoration: none;
+		}
+
+
+		.titulo-principal{
+			text-align: center;
+			color: #B7245C;
+			font-family: 'Zilla Slab', serif;
+			font-size: 75px;
+		}
+
+		.paragrafo-principal{
+			top:20px;
+			transform: translateY(-20px);
+			text-align: center;
+			color: #B7245C;
+			font-family: 'Zilla Slab', serif;
+			font-size: 25px;
+			margin-top: 30px;
+		}
+
+#sobre{
+	color: #B7245C;
+	font-size: 35px;
+	margin-bottom: 25px;
+	font-family: 'Catamaran', sans-serif;
+	padding-left: 50px;
+}
+.conteudo-esquerda{
+	padding-top: 20px;
+	padding-left: 50px;
+	display: flex;
+}
+			.conteudo-esquerda div{
+				background-color: #FFC1CF;
+				width: 500px;
+				height: 225px;
+				padding-top:55px;
+				padding-right: 20px;
+				padding-left: 20px;
+				border-radius: 30px;
+				text-align: center;
+				font-family: 'Roboto', sans-serif;
+				color: #B7245C;
+				margin-right: 170px;
+				border: #B7245C solid 2px;
+			}
+				.conteudo-esquerda picture img{
+					width: 500px;	
+					border: #B7245C solid 2px;
+					margin-bottom: 50px;
+				}
+
+#cardapio{
+	text-align: center;
+	color: #B7245C;
+    font-size: 35px;
+    padding-right: 20px;
+    font-family: 'Catamaran', sans-serif;
+    padding-top: 30px;
+}			
+
+.conteudo-cardapio{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+	.conteudo-cardapio div img{
+		height: 350px;
+		width: 325px;
+		margin-left: 20px;
+	}
+
+.conteudo-cardapio2{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+	.conteudo-cardapio2 div img{
+		height: 350px;
+		width: 325px;
+	}
+
+.casquinhas{
+	font-family: 'Roboto',  sans-serif;
+	color: #B7245C;
+	text-align: center;
+	padding-left: 80px;
+}
+
+#exclusivos{
+color: #B7245C;
+font-size: 35px;
+margin-bottom: 0px;
+font-family: 'Catamaran', sans-serif;
+padding-top: 50px;
+padding-left: 40px;	
+}
+.conteudo-sabores{
+	display: flex;
+}
+.conteudo-sabores div{
+	border-radius: 30px;
+	width: 300px;
+	height: 450px;
+	margin-left: 50px; 
+}
+	.conteudo-sabores h2{
+		text-align: left;
+		color: #B7245C;
+	    font-size: 35px;
+	    padding-left:50px;
+	    font-family: 'Catamaran', sans-serif;	
+	}
+		.conteudo-sabores div img{
+			width: 200px;
+			height: 300px;
+			margin: 50px;
+
+		}
+			.conteudo-sabores div h3{
+		        font-family: 'Roboto',  sans-serif;
+				color: #B7245C;
+				text-align: center;
+			}
+#exclusivo-um{
+	margin-right: 125px;
+}
+#exclusivo-dois{
+	margin-right: 125px;
+}
+
+#titulo-receitas{
+color: #B7245C;
+font-size: 35px;
+margin-bottom: 0px;
+font-family: 'Catamaran', sans-serif;
+padding-top: 50px;
+padding-left: 40px;
+}
+
+.conteudo-receitas{
+padding-top: 70px;
+padding-left: 50px;
+display: flex;
+margin-top: 0px;
+
+}
+	.conteudo-receitas div{
+		background-color: #FFC1CF;
+			width: 500px;
+			padding:20px;
+			border-radius: 30px;
+			text-align: left;
+			font-family: 'Roboto', sans-serif;
+			color: #B7245C;
+			margin-left: 5px;
+			margin-bottom: 30px;
+	}
+		.conteudo-receitas div img{
+			height: 300px;
+			width: 450px;
+			margin-bottom: 20px;
+			margin-left: 20px;
+			border-style: dashed;
+			border-color: #B7245C;
+		}
+			.conteudo-receitas h3{
+				padding-bottom: 20px;
+			}
+
+#segunda-receita{
+	margin-left:150px;
+}
+
+.evento h1{
+	color: #B7245C;
+	font-size: 40px;
+	font-family: 'Catamaran', sans-serif;
+	text-align: center;
+	padding-top: 70px;
+}
+
+.evento h4{
+	color: #B7245C;
+	font-size: 20px;
+	font-family: 'Catamaran', sans-serif;
+	text-align: center;
+}
+
+.orçamento{
+	background-color: #FFC1CF;
+	height: 125px;
+	display: flex;
+	margin-top: 70px;
+}
+	.orçamento h2{
+		font-family: 'Roboto', sans-serif;
+		color: #B7245C;
+		padding-top: 50px;
+		padding-left: 50px;
+	}
+	.orçamento button{
+		background-color: #B3DEE2;
+		border-radius: 20px;
+		border:#B3DEE2 2px solid;
+		width: 200px;
+		height: 55px;
+		margin-top: 35px;
+		font-family: 'Roboto', sans-serif;
+		color: #B7245C;
+		margin-left: 500px;
+	}
+	.orçamento button:hover{
+		background-color: #FFF;
+		transition: 0.5s;
+	}
+		.orçamento a{
+			text-decoration-line: none;
+		}
+.div-formulario{
+	background:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url('https://4.bp.blogspot.com/-Uoi-CcRo7Is/VvLhE6phZBI/AAAAAAAAc7Q/rqEk8vagdbYHWnCrgvatSbtpB94nSuTXg/s1600/Loja%2BChiquinho%2BSorvetes%2B1.jpg');
+	text-align: center;
+	height: 800px;
+}
+	.div-formulario h2{
+		font-family: 'Roboto', sans-serif;
+		color: #B7245C;
+		font-size: 50px;
+		padding-top: 40px;
+	}		
+
+
+#formulario{
+	border-radius: 15px;
+	background-color: #FFF;
+	width: 600px;
+	margin-left: 375px;
+	transform: translateY(5%);
+	height: 650px;
+	z-index: 1;
+}
+
+.informaçoes{
+	color: #001c31;
+	width: 500px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border-color: #001c31;
+	height: 25px;
+	padding-left: 7px;
+}
+
+#submit{
+	background-color: #B3DEE2;
+		border-radius: 5px;
+		border:#B3DEE2 2px solid;
+		width: 500px;
+		height: 55px;
+		font-family: 'Roboto', sans-serif;
+		font-size: 25px;
+		color: #B7245C;
+		margin-top: 20px;
+}
+	#submit:hover{
+	background-color: #FFF;
+	transition: 0.5s;
+	}
+
+
+.fas{
+	color: #B7245C; 
+	font-size: 50px;
+
+}
+
+.fab{
+	color: green;
+	font-size: 50px;
+
+}
+
+.fad{
+	color: #B7245C;
+	font-size: 50px;
+	
+}
+
+
+.footer {
+    background-color: #B3DEE2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    .footer ul {
+        display: flex;
+        justify-content: center;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+        .footer ul li {
+            display: block;
+            margin: 1em;
+        }
+            .footer ul li i {
+                margin-left: 50%;
+                transform: translateX(-50%);  
+            }
+
+				.footer ul li p{
+				    text-align: center;
+				}

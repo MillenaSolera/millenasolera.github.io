@@ -1,0 +1,1338 @@
+html{
+	background-color: #FFF;
+}
+
+* {
+padding: 0;
+margin: 0;
+}
+
+
+header{
+	background-color: #003D5B;
+	color: white;
+	height: 100px;
+	border-bottom: #06D6A0 solid 3px;
+}
+	header ul{
+		display: flex;
+		justify-content: center;
+	}
+		header ul li{
+			margin: 0px;
+		    padding-left: 50px;
+		    padding-top: 30px;
+		    padding-right: 50px;
+		    padding-bottom: 0px;
+		    list-style: none;
+		    font-size: 25px;
+		    font-family: 'Titillium Web', sans-serif;
+		}
+
+
+			.bandeiras{
+				width: 100px;
+				height: 50px;
+				position: absolute;
+				margin-top: 20px;
+				margin-left: 20px;
+				left: 95%;
+				transform:translateX(-95%); 
+			}
+
+a{
+	text-decoration-line: none;
+	color: #FFF;
+}
+
+#logo-travel{
+	width: 90px;
+	height: 80px;
+	margin-top: 10px;
+	position: absolute;
+}
+
+.titulo-principal{
+	text-align: center;
+	justify-content: center;
+	padding-top: 50px;
+	font-size: 30px;
+	color: #06D6A0;
+}
+	.titulo-principal h2{
+		font-family: 'Titillium Web', sans-serif;
+		padding-bottom: 20px;
+	}
+
+
+#items-nrapper{
+	width: 95vw;
+	margin-left: 30px;
+	margin-top: 30px;
+	overflow-x: auto;
+	scroll-snap-type: x mandatory;
+	-webkit-overflow-scrolling: touch;
+}
+
+#items{
+	display: flex;
+	flex: none;
+	width: 500px;
+	height: 500px;
+	scroll-snap-align: start;
+}
+
+	#items div img{
+		width: 1250px;
+		height: 550px;
+		object-fit: cover;
+		border-radius: 20px;
+	}
+
+
+.conteudo{
+	margin-top: 40px;
+}
+
+	.conteudo2 {
+		background-color: #003D5B;
+		width: 600px;
+		height: 250px;
+		font-family: 'Noto Serif', serif;
+		padding-top: 40px;
+		color: #FFF;
+		border-radius: 30px;
+		text-align: center;
+		padding: 30px;
+		margin-left: 30px;
+	}
+		.conteudo2 h3{
+			margin-bottom: 15px;
+			font-family: 'Open Sans', sans-serif;
+
+		}
+		.conteudo2 p{
+			font-family: 'Biryani', sans-serif;
+			font-size: 20px;
+		}
+
+		.conteudo3{
+			background-color: #003D5B;
+			width: 600px;
+			height: 250px;
+			font-family: 'Noto Serif', serif;
+			padding-top: 40px;
+			color: #FFF;
+			border-radius: 30px;
+			text-align: center;
+			padding: 30px;
+			margin-top: 30px;
+			margin-right: 30px;
+			margin-left: 600px;
+		}
+				.conteudo3 h3{
+					margin-bottom: 15px;
+					font-family: 'Open Sans', sans-serif;
+				}
+				.conteudo p{
+					font-family: 'Biryani', sans-serif;
+					font-size: 20px;
+				}
+
+/*PRIMEIRA PÁGINA*/
+.div-background-londres{
+	background: url('https://www.visitbritain.com/sites/default/files/styles/wysiwyg_image/public/consumer/Brasil/GB4Brazilians/tower_bridge.jpg?itok=bUrgBGMV');
+	height: 400px;
+	background-size: cover;
+	padding-top: 50px;
+}
+	#titulo-londres{
+		text-align: center;
+		color: #FFF;
+		font-size: 40px;
+		font-family: 'Titillium Web', sans-serif;
+	}
+
+.topicos-londres{
+	margin-top:20px;
+	justify-content: center;
+	text-align: center;
+	background-color: #06D6A0;
+	color: #003D5B;
+	height: 100px;
+}
+	.topicos-londres h3{
+		color: #003D5B;
+	    font-family: 'Open Sans', sans-serif;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	.topicos-londres p{
+		font-family: 'Biryani', sans-serif;
+		font-size: 18px;
+		color: #003D5B;
+	}
+
+.pontos-turisticos-londres{
+	margin-left: 40px;
+	width: 825px;
+}
+	.pontos-turisticos-londres h3{
+		font-family: 'Open Sans', sans-serif;
+	    color: #003D5B;
+		padding-top: 20px;
+		padding-bottom: 15px;
+	}
+	.pontos-turisticos-londres p{
+		font-family: 'Biryani', sans-serif;
+		font-size: 18px;
+		color: #003D5B;
+	}
+
+.pontos-turisticos-londres1{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+	.pontos-turisticos-londres1 img{
+		height: 375px;
+		width: 450px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+.pontos-turisticos-londres2{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+	.pontos-turisticos-londres2 img{
+		height: 400px;
+		width: 300px;
+		margin-left: 110px;
+	}
+
+.pontos-turisticos-londres3{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+	.tower{
+		height: 400px;
+		width: 300px;
+		margin-left: 50px;
+	}
+	#tower{
+		height: 400px;
+		width: 450px;
+		margin-left: 40px;
+	}
+
+.cultura{
+	background:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url('https://http2.mlstatic.com/D_NQ_NP_448905-MLB25106497286_102016-O.jpg');
+}
+	.cultura h3{
+		font-family: 'Open Sans', sans-serif;
+		color: #FFF;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 0px;
+	}
+		.cafe-da-manha{
+			display: flex;
+			justify-content: center;
+			margin-top: 20px;
+			margin-left: 60px;
+			margin-bottom: 30px;
+		}
+			.cafe-da-manha img{
+				margin-top: 30px;
+				width: 425px;
+				height: 375px;
+				margin-right: 20px;
+			}
+			.cafe-da-manha div{
+				padding-top: 20px;
+				margin-top: 30px;
+				margin-left: 60px;
+				margin-right: 50px;
+				padding-left: 15px;
+				padding-right: 15px;
+				text-align: left;
+				width: 700px;
+				background-color: #003D5B;
+				color: #FFF;
+				font-size: 20px;
+				border-radius: 30px;
+			}
+			.cafe-da-manha div p{
+				font-family: 'Biryani', sans-serif;
+				font-size: 18px;
+			}
+
+.transportes{
+	color: #003D5B;
+	margin-left: 20px;
+}
+	.transportes h3{
+		font-family: 'Open Sans', sans-serif;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+		.div-transporte-metro{
+			margin-top: 15px;
+		}
+			.div-transporte-metro img{
+				width: 300px;
+				height: 405px;
+				margin-left: 70px;
+				margin-right: 50px;
+			}
+			.div-transporte-metro video{
+				margin-left: 70px;
+				margin-right: 100px;
+			}
+			.div-transporte-metro p{
+				padding-top: 20px;
+				color: #003D5B;
+				font-size: 18px;
+				font-family: 'Biryani', sans-serif;
+			}
+		.div-transporte-bus{
+			margin-top: 30px;
+			text-align: center;
+			display: flex;
+		}
+			.div-transporte-bus img{
+				width: 300px;
+				height: 405px;
+				margin-left: 70px;
+				margin-right: 40px;
+			}
+			.div-transporte-bus p{
+				padding-top: 80px;
+				margin-left: 60px;
+				margin-right: 50px;
+				padding-left: 15px;
+				padding-right: 15px;
+				text-align: left;
+				width: 400px;
+				background-color: #003D5B;
+				color: #FFF;
+				font-size: 18px;
+			    font-family: 'Biryani', sans-serif;
+				border-radius: 30px;
+			}
+
+		.div-oyster{
+			margin-top: 15px;
+			display: flex;
+			justify-content: center;
+		}
+			.div-oyster img{
+				width: 300px;
+				height: 405px;
+			}
+			.div-oyster p{
+				padding-top: 20px;
+				margin-left: 60px;
+				margin-right: 50px;
+				padding-left: 15px;
+				padding-right: 15px;
+				text-align: left;
+				width: 400px;
+				background-color: #003D5B;
+				color: #FFF;
+				font-family: 'Biryani', sans-serif;
+		        font-size: 16px;
+				border-radius: 30px;
+				margin-bottom: 20px;
+			}
+
+.clima-londres{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	justify-content: center;
+}
+	.clima-londres p{
+		padding-top: 80px;
+		margin-left: 60px;
+		margin-right: 50px;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: left;
+		width: 400px;
+		background-color: #003D5B;
+		color: #FFF;
+		font-size: 18px;
+		font-family: 'Biryani', sans-serif;
+		border-radius: 30px;
+		margin-bottom: 20px;
+	}
+	.clima-londres img{
+		width: 300px;
+		height: 405px;
+		margin-right: 50px;
+	}
+
+/*FIM PRIMEIRA PÁGINA*/
+
+/* CSS DE ORLANDO ...........................*/
+
+.div-background-orlando div h1{
+	color: #003D5B;
+	text-align: center;
+	padding-top: 10px;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+}
+
+
+	.div-background2-orlando{
+	background: url('https://www.cp4.com.br/wp-content/uploads/2019/02/IslandsofAdventure.jpg');
+	height: 400px;
+	background-size: cover;
+	padding-top: 50px;
+    }
+		
+
+.conteudo-eua{
+
+}
+
+	.conteudo-lista-eua ul {
+		display: flex;
+		justify-content: center;
+		font-family: 'Open Sans', sans-serif;
+	
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+		.conteudo-lista-eua ul li{
+			display: flex;
+			margin: 0px;
+		    padding-left: 80px;
+			padding-top: 20px;
+			padding-right: 70px;
+			padding-bottom: 20px;
+		    list-style: none;
+			font-size: 25px;
+			color: #06D6A0;
+
+		}
+
+			.lista{
+				border-radius: 15px;
+	            margin-left: 60px;
+	            margin-right: 20px;
+	            padding-bottom: 25px;
+	            color: #000;
+	           
+			}
+
+				.lista:hover{
+					color: #06D6A0;
+					transition: 0.5s;
+				}
+.hoteis-eua{
+	display: flex;
+	
+	margin-left: 50px;
+	margin-right: 30px;
+
+
+}
+
+	.hoteis-eua2{
+		background-color: #003D5B;
+		height: 300px;
+		padding-top: 30px;
+		width: 600px;
+		border-radius: 30px;
+		padding-left: 30px;
+		margin-left: 40px;
+		margin-top: 40px;
+
+	}
+
+		.hoteis-eua h1{
+			color: #06D6A0;
+			font-family: 'Titillium Web', sans-serif;
+			text-align: center;
+		}
+
+
+			.hoteis-eua p{
+				padding-top: 30px;
+				color: #FFF;
+				font-family: 'Biryani', sans-serif;
+				text-align: center;
+				padding-right: 20px;
+				font-size: 15px;
+			}
+
+.imagem-hotel-eua{
+	display: flex;
+	margin-left: 100px;
+	height: 300px;
+	width: 400px;
+	margin-top: 55px;
+	
+}
+
+	.imagem-hotel-eua img{
+		border-radius: 30px;
+	}
+
+
+.transporte-eua2{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.transporte-eua2 img{
+	margin-right: 50px;
+	margin-top: 60px;
+	height: 300px;
+	width: 450px;
+	border-radius: 30px;
+
+
+}
+
+
+.transporte-eua{
+	background-color: #003D5B;
+	height: 300px;
+	width: 620px;
+	margin-top: 60px;
+	text-align: center;
+	border-radius: 30px;
+	margin-left: 40px;
+	
+}
+
+
+	.transporte-eua h1{
+		color: #06D6A0;
+		font-family: 'Titillium Web', sans-serif;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+		.transporte-eua p{
+			color: #FFF;
+			font-family: 'Biryani', sans-serif;
+		    text-align: center;
+		    padding-top: 10px;
+		    padding-right: 15px;
+		    padding-left: 15px;
+		    font-size: 15px;
+		}
+
+#titulo-magic{
+	background-color: #003D5B;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+
+
+.atraçoes{
+	padding-top: 60px;
+	text-align: center;
+	color: #06D6A0;
+}
+
+	.atraçoes-parques{
+		
+	}
+
+		.atraçoes-parques img{
+			width: 380px;
+			height: 340px;
+			margin-top: 30px;
+			border-width: thin;
+			border-color: #000;
+			border-style: solid;
+			
+
+		}
+
+			#parada{
+				
+				width: 380px;
+				height: 340px;
+				margin-left: 20px;
+				margin-right: 20px;
+
+		    }
+
+		    	#fogos{
+		    		margin-left: 30px;
+		    		margin-right: 30px;
+		    	}
+					
+
+					.atraçoes-parques p{
+					    padding-left: 40px;
+					    text-align: center;
+						padding-right: 30px;
+						padding-top: 40px;
+						color: #000;
+						font-family: 'Biryani', sans-serif;
+						font-size: 15px;
+						
+
+					}
+
+#titulo-animal{
+	padding-top: 40px;
+	background-color: #003D5B;
+	margin-top: 40px;
+	padding-bottom: 30px;
+	font-family: 'Titillium Web', sans-serif;
+
+}
+
+.atraçoes-animal p{
+	color: #000;
+	padding-top: 40px;
+	text-align: center;
+	padding-left: 40px;
+	padding-right: 30px;
+	font-family: 'Biryani', sans-serif;
+
+}
+
+	.atraçoes-animal img{
+		margin-top: 40px;
+		border-width: thin;
+		border-color: #000;
+		border-style: solid;
+		width: 380px;
+		height: 340px;
+	}
+
+		#avestruz{
+			margin-left: 40px;
+			margin-right: 30px;
+		}
+
+
+#titulo-studios{
+	background-color: #003D5B;
+	padding-top: 40px;
+	margin-top: 40px;
+	padding-bottom: 30px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+	.atraçoes-studios p{
+		color: #000;
+		text-align: center;
+		padding-top: 40px;
+		padding-right: 30px;
+		padding-left: 40px;
+		font-family: 'Biryani', sans-serif;
+	}
+
+		.atraçoes-studios img{
+			border-width: thin;
+		    border-color: #000;
+		    border-style: solid;
+		    width: 360px;
+		    height: 340px;
+		    margin-top: 40px;
+		}
+
+			#toy{
+				margin-left: 30px;
+				margin-right: 30px;
+			}
+
+				#frozen{
+					width: 400px;
+					height: 400px;
+					margin-left: 50px;
+				}
+
+					#guitarra{
+						width: 400px;
+					    height: 400px;
+					    margin-left: 50px;
+					}
+
+#titulo-epcot{
+	background-color: #003D5B;
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+	.atraçoes-epcot p{
+		color: #000;
+		padding-top: 30px;
+		padding-left: 40px;
+		padding-right: 30px;
+		text-align: center;
+		font-family: 'Biryani', sans-serif;
+
+	}
+
+		.atraçoes-epcot img{
+			width: 380px;
+			height: 340px;
+			margin-top: 40px;
+			border-width: thin;
+		    border-color: #000;
+		    border-style: solid;
+		}
+
+			#planetas{
+				margin-left: 40px;
+				margin-right: 30px;
+			}
+
+#titulo-universal{
+	background-color: #003D5B;
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+	.atraçoes-universal p{
+		color: #000;
+		padding-top: 30px;
+		padding-left: 40px;
+		padding-right: 30px;
+		text-align: center;
+		font-family: 'Biryani', sans-serif;
+	}
+
+		.atraçoes-universal img{
+			width: 380px;
+			height: 360px;
+			margin-top: 40px;
+			border-width: thin;
+		    border-color: #000;
+		    border-style: solid;
+		}
+
+			.atraçoes-universal video{
+
+			}
+
+				#eu{
+					margin-left: 40px;
+					margin-right: 30px;
+				}
+
+					#parque-universal{
+						margin-left: 40px;
+					    margin-right: 30px;
+					}
+
+#outras-atraçoes{
+	background-color: #003D5B;
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+	.outras-atraçoes p{
+		color: #000;
+		padding-top: 30px;
+		padding-left: 40px;
+		padding-right: 30px;
+		text-align: center;
+		font-family: 'Biryani', sans-serif;
+	}
+
+		.outras-atraçoes img{
+			width: 380px;
+			height: 360px;
+			margin-top: 40px;
+			border-width: thin;
+		    border-color: #000;
+		    border-style: solid;
+		}
+
+			#minigolf{
+				margin-left: 40px;
+				margin-right: 30px;
+			}
+
+
+#titulo-alimentaçao{
+	background-color: #003D5B;
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+	#paragrafo-alimentaçao  {
+		color: #000;
+		padding-top: 30px;
+		padding-left: 50px;
+		padding-right: 40px;
+		text-align: center;
+		font-family: 'Biryani', sans-serif;
+		font-size: 15px;
+		
+	}
+
+		.imagem-alimentaçao{
+		    width: 380px;
+			height: 340px;
+			margin-top: 40px;
+			border-width: thin;
+		    border-color: #000;
+		    border-style: solid;
+		}
+
+			#forest{
+				margin-right: 30px;
+				margin-left: 40px;
+			}
+
+/* FIM DE ORLANDO */
+
+
+
+/*TERCEIRA PÁGINA*/
+.div-background-paris{
+	background: url('BackParis.jpeg');
+	height: 400px;
+	background-size: cover;
+	padding-top: 50px;
+}
+	#titulo-paris{
+		text-align: center;
+		color: #FFF;
+		font-size: 40px;
+		font-family: 'Titillium Web', sans-serif;
+		padding-top: 0px;
+	}
+.topicos-paris{
+	margin-top:20px;
+	justify-content: center;
+	text-align: center;
+	background-color: #06D6A0;
+	color: #003D5B;
+	height: 100px;
+}
+	.topicos-paris h3{
+		font-family: 'Open Sans', sans-serif;
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	.topicos-paris p{
+		font-family: 'Biryani', sans-serif;
+		font-size: 18px;
+	}
+
+.viagem-trem{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+	.viagem-trem div{
+		background-color: #003D5B;
+		width: 500px;
+		padding: 30px;
+		border-radius: 15px;
+	}
+		.viagem-trem div h3{
+			font-family: 'Open Sans', sans-serif;
+			color: #FFF;
+			font-size: 22px;	
+			padding-bottom: 15px;
+		}
+		.viagem-trem div p{
+			font-family: 'Biryani', sans-serif;
+			font-size: 17px;
+			color: #FFF;
+		}
+
+	.viagem-trem img{
+		height: 425px;
+		width: 325px;
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+
+.pontos-turisticos-paris{
+	margin-left: 40px;
+	width: 825px;
+}
+	.pontos-turisticos-paris h3{
+		font-family: 'Open Sans', sans-serif;
+		color: #003D5B;
+		padding-top: 20px;
+		padding-bottom: 15px;
+	}
+	.pontos-turisticos-paris p{
+		font-family: 'Biryani', sans-serif;
+		font-size: 18px;
+		color: #003D5B;
+	}
+
+.pontos-turisticos-paris1{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+	.pontos-turisticos-paris1 img{
+		height: 400px;
+		width: 325px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+.transportes-paris{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #FFF;
+}
+	.transportes-paris div{
+		background-color: #003D5B;
+		width: 500px;
+		padding: 30px;
+		margin-right: 50px;
+		margin-left: 50px;
+		border-radius: 10px;
+	}
+		.transportes-paris div h3{
+			padding-bottom: 15px;
+			font-family: 'Open Sans', sans-serif;
+			color: #FFF;
+		}
+		.transportes-paris div p{
+			font-family: 'Biryani', sans-serif;
+			font-size: 18px;
+			color: #FFF;
+		}
+.clima-paris{
+	display: flex;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	justify-content: center;
+}
+	.clima-paris p{
+		margin-bottom: 20px;
+		margin-right: 50px;
+		padding-top: 60px;
+		padding-left: 15px;
+		padding-right: 15px;
+		text-align: left;
+		width: 400px;
+		background-color: #003D5B;
+		font-size: 20px;
+		font-family: 'Biryani', sans-serif;
+		color: #FFF;
+		border-radius: 15px;
+	}
+	.clima-paris img{
+		width: 300px;
+		height: 400px;
+		margin-right: 50px;
+		border-radius: 20px;
+	}
+
+#video{
+	background-color: #003D5B;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+	#video video{
+		padding-top: 10px;
+		padding-bottom: 5px; 
+	}
+
+/*FIM TERCEIRA PÁGINA*/
+
+/* CSS DO CARIBE ............ */
+
+.div-background-caribe{
+	background-image: url(https://storage.googleapis.com/instaviagem-wordpress/2018/11/10-Melhores-lugares-para-lua-de-mel-no-Caribe-Punta-Cana-Shutterstock-4-1500x500.jpg);
+	width: 100%;
+	height: 400px;
+}
+
+#titulo-principal{
+	padding-top: 70px;
+	padding-left: 40px;
+	color: #003D5B;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40px;
+}
+
+
+.oque-fazer{
+	background-color: #003D5B;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	color: #FFF;
+}
+    .oque-fazer h1{
+    	text-align: center;
+    	color: #06D6A0;
+    	font-family: 'Titillium Web', sans-serif;
+    }
+
+
+		.oque-fazer p{
+			padding-top: 20px;
+			text-align: center;
+			font-family: 'Biryani', sans-serif;
+		}
+
+.conteudo-caribe{
+	justify-content: center;
+}
+
+.bavaro-macao{
+	display: flex;
+}
+
+.bavaro{
+	background-color: #003D5B;
+	width: 600px;
+	height: 300px;
+	border-radius: 30px;
+	margin-left: 30px;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+	.bavaro h2{
+		color: #06D6A0;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+		.bavaro p{
+			color: #FFF;
+			padding-top: 30px;
+			font-family: 'Biryani', sans-serif;
+		}
+
+
+.macao{
+	background-color: #003D5B;
+	width: 600px;
+	height: 300px;
+	border-radius: 30px;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 40px;
+	margin-left: 70px;
+}
+
+	.macao h2{
+		color: #06D6A0;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+		.macao p{
+			color: #FFF;
+			padding-top: 30px;
+			font-family: 'Biryani', sans-serif;
+		}
+
+.toro{
+	background-color: #003D5B;
+	width: 600px;
+	height: 300px;
+	border-radius: 30px;
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 40px;
+	
+	margin-left: 350px;
+}
+
+	.toro div{
+		justify-content: center;
+	}
+
+	.toro h2{
+		color: #06D6A0;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+		.toro p{
+			color: #FFF;
+			padding-top: 30px;
+			padding-left: 20px;
+			padding-right: 20px;
+			font-family: 'Biryani', sans-serif;
+		}
+
+.div-imagens{
+	width: 280px;
+	height: 240px;
+	display: flex;
+	margin-top: 40px;
+	
+}
+
+	#bavaro{
+		margin-left: 50px;
+	}
+
+		#macao{
+			margin-left: 40px;
+			margin-right: 30px;
+		}
+
+			#toro{
+				margin-right: 30px;
+			}
+
+.outros-passeios{
+	background-color: #003D5B;
+	margin-top: 40px;
+}
+
+	.outros-passeios h2{
+		color: #06D6A0;
+		font-family: 'Open Sans', sans-serif;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+
+#lista2-caribe{
+	display: flex;
+	list-style: none;
+	padding-top: 30px;
+	color: #06D6A0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	justify-content: center;
+}
+
+
+#saona{
+	padding-left: 60px;
+}
+
+	#dolphin{
+		padding-left: 90px;
+	}
+
+
+		#tour{
+			padding-left: 60px;
+		}
+
+			
+
+.imagem-passeios{
+	display: flex;
+}
+
+	.imagem-passeios div img{
+		width: 380px;
+		height: 340px;
+		margin-top: 40px;
+	}
+
+		#saona-praia{
+			margin-left: 40px;
+		}
+
+			#golfinho{
+				margin-left: 60px;
+				margin-right: 70px;
+			}
+
+.div-passeios{
+	display: flex;
+	margin-top: 30px;
+}
+
+	.div-passeios h2{
+		padding-top: 30px;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		color: #06D6A0;
+
+	}
+
+	#div-saona2{
+		width: 380px;
+		height: 340px;
+		background-color:  #003D5B;
+		margin-left: 40px;
+		border-radius: 10px;
+	}
+
+		#div-golfinho2{
+			width: 380px;
+			height: 340px;
+			background-color:  #003D5B;
+			margin-left: 60px;
+			border-radius: 10px;
+		}
+
+			#div-heli2{
+				width: 380px;
+				height: 340px;
+				background-color:  #003D5B;
+				margin-left: 70px;
+				border-radius: 10px;
+			}
+
+					#paragrafo-saona{
+						padding-top: 30px;
+						text-align: center;
+						color: #FFF;
+						font-family: 'Biryani', sans-serif;
+						
+					}
+
+					    #paragrafo-golfinho{
+							padding-top: 30px;
+							text-align: center;
+							color: #FFF;
+							font-family: 'Biryani', sans-serif;
+								
+								
+						}
+								#paragrafo-heli{
+									padding-top: 30px;
+									text-align: center;
+									color: #FFF;
+									font-family: 'Biryani', sans-serif;
+									    
+								}
+
+
+.resorts-caribe{
+
+}
+
+	.resorts-caribe2{
+		padding-top: 50px;
+		padding-left: 40px;
+	}
+
+		.resorts-caribe2 h2{
+			color: #06D6A0;
+			font-family: 'Open Sans', sans-serif;
+		}
+
+			.resorts-caribe2 p{
+				font-family: 'Biryani', sans-serif;
+				padding-top: 20px;
+			}
+
+.resorts-imagens{
+	display: flex;
+}
+
+	.resorts-imagem img{
+		width: 380px;
+		height: 340px;
+		margin-top: 20px;
+	}
+
+		#resorts3{
+			margin-left: 50px;
+			margin-right: 40px;
+		}
+
+			#resorts4{
+				margin-left: 40px;
+			}
+
+.cultura-caribe{
+	padding-left: 40px;
+	padding-top: 40px;
+}
+
+	.cultura-caribe h2{
+		color: #06D6A0;
+		font-family: 'Open Sans', sans-serif;
+	}
+
+		.cultura-caribe p{
+			font-family: 'Biryani', sans-serif;
+			padding-top: 20px; 
+		}
+
+.imagens-cultura-caribe{
+	display: flex;
+	justify-content: center;
+}
+
+	.imagens-cultura-caribe img{
+		width: 380px;
+		height: 380px;
+		margin-top: 40px;
+		margin-bottom: 30px;
+		margin-right: 30px;
+		border-width: thin;
+	    border-color: #000;
+		border-style: solid;
+	}
+
+ .footer{
+	background-color: #003D5B;
+	height: 100px;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+}
+
+	.footer img{
+		height: 100px;
+		width: 100px;
+		
+	}
+		#imagem1{
+			margin-right: 30px;
+		}
+
+			.footer p{
+				padding-top: 50px;
+				font-family: 'Biryani', sans-serif;
+				color: #FFF;
+				
+			}
+
+.fechamento-redes{
+	margin-top:20px;
+	justify-content: center;
+	text-align: center;
+	background-color: #06D6A0;
+	color: #003D5B;
+	height: 100px;
+}
+
+	.fechamento-redes h2{
+		color: #003D5B;
+	    font-family: 'Open Sans', sans-serif;
+		padding-top: 30px;
+		padding-bottom: 10px;
+	}

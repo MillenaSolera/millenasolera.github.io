@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sorveteria Heaven </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/af0b12b49e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<!--cabeçalho-->
+		<div class="banner">
+			<header>
+				<h2><img src="Logo2.jpg" alt="logoHeaven"></h2>
+				<div>
+					<ul>
+						<li><a href="#sobre" class="nao-sublinhado">Sobre</a></li>
+						<li><a href="#cardapio" class="nao-sublinhado">Cardápio</a></li>
+						<li><a href="#exclusivos" class="nao-sublinhado">Exclusivos</a></li>
+						<li><a href="#titulo-receitas" class="nao-sublinhado">Receitas</a></li>
+					</ul>
+				</div>
+			</header>
+		</div>
+
+		<div class= "div-background">
+			<div>
+				<h1 class="titulo-principal">BEM-VINDOS À HEAVEN</h1>
+			    <p class="paragrafo-principal">O paraíso em forma de sorvete</p>
+			</div>
+		</div>
+
+		<h2 id="sobre">Como a Heaven surgiu</h2>
+		<div class="conteudo-esquerda"> 
+			<div>
+				<p>A Heaven foi inaugurada em 1995 por duas mulheres empreendedoras que desde cedo tiveram um sonho de ter um grande negócio. Eram amigas desde muito pequenas, cresceram juntas dividindo esse sonho e o realizaram.
+				A heaven tem o intuito de proporcionar experiências inesquecíveis, para todos os clientes de todas as idades, com todos os sabores de sorvete diferenciados, além do ambiente que juntos proporcionam sua experiência no paraíso. </p>
+			</div>
+			<picture>
+				<img src="milana.jpeg">
+			</picture>
+		</div>
+
+		<h2 id="cardapio">Conheça nossos sorvetes Heaven especiais</h2>
+		<div class="conteudo-cardapio">
+			<div>
+				<img src="SorveteRoxo.png">
+				<h3 class="casquinhas">Poção mágica</h3>
+			</div>
+			<div>
+				<img src="SorveteRosa.png">
+				<h3 class="casquinhas">Lágrima de Anjo</h3>
+			</div>
+			<div>
+				<img src="SoreveteMarrom.png">
+				<h3 class="casquinhas">Abracadabra</h3>
+			</div>
+
+		</div>
+
+		<div class="conteudo-cardapio2">
+			<div>
+				<img src="SorveteAmarelo.png">
+				<h3 class="casquinhas">Pote de Ouro</h3>
+			</div>
+			<div>
+				<img src="SorveteVerde.png">
+				<h3 class="casquinhas">Unicórnio neon</h3>
+			</div>   
+		</div>
+
+		<h2 id="exclusivos">Sabores exclusivos</h2>
+		<div class="conteudo-sabores">
+			<div id="exclusivo-um">
+				<img src="sorvete1.png" alt="foto do sorvete">
+				<h3>ZERO LACTOSE</h3>
+			</div>
+			<div id="exclusivo-dois">
+				<img src="sorvete2.png" alt="foto do sorvete">
+				<h3>ZERO AÇÚCAR</h3>
+			</div>  
+			<div>
+				<img src="sorvete3.png" alt="foto do sorvete">
+				<h3>ZERO GLÚTEN</h3>
+			</div>    	
+		</div>
+        
+        <h2 id="titulo-receitas">Experimente o paraíso com um pouco mais de intensidade</h2>
+		<div class="conteudo-receitas">
+			<div>
+				<img src="https://asset-americas.unileversolutions.com/content/dam/unilever/global/recipe_image/366/36652-default.png/jcr:content/renditions/original">
+				<h3>Bolo de merengue com sorvete</h3>
+				<p>Nada melhor que um delicioso bolo de merengue com sorvetes Heaven para um lanche da tarde. Ou como uma sobremesa caprichada. Nesta receita ensinamos a preparar a massa de forma simples e prática. Garantimos que ficará uma delícia, confira! Tempo de preparo: 30min. Serve 8 pessoas.</p>
+			</div>	
+            <div id="segunda-receita">
+				<img src="https://truffle-assets.imgix.net/7c807479-bolo-sorvete-com-calda-de-chocolate_l_thumb.jpg">
+				<h3>Torta de sorvete com calda de chocolate</h3>
+				<p>Uma sobremesa deliciosa e surpreendente!
+				Essa torta é preparada com facilidade e fica ainda melhor feita com o nosso sorvete poção mágica. É perfeita para aproveitar dias quentes com a família e amigos.
+				Tempo de preparo: 50min. 
+				Serve 10 pessoas.
+			</p>
+			</div>
+		</div>
+
+		<div class="evento">
+			<h1>Tenha a melhor experiência levando a Heaven para o seu evento!</h1>
+			<h4>Atendemos a todos os tipos de eventos e comemorações.</h4>
+		</div>
+       
+       <div class="orçamento">
+       	<h2>Faça um orçamento, estamos a disposição!</h2>
+       	<button> <a href="#formulario">FAÇA UM ORÇAMENTO</a></button>
+       </div>
+
+        <div class="div-formulario">
+        	<h2>Preencha o formulário</h2>
+				<form id="formulario">
+					<input type="Text" name="Nome" placeholder="Nome" required class="informaçoes">
+					<br>
+					<br>
+					<input type="Text" name="Nome" placeholder="Sobrenome" required class="informaçoes">
+					<br>
+					<br>
+					<input type="Text" name="email" placeholder="Digite seu email" required class="informaçoes">
+					<br>
+					<br>
+                    <input type="Text" name="whatsapp" placeholder="Whatsapp" class="informaçoes">
+                    <br>
+                    <br>
+                    <input type="date" name="evento" class="informaçoes">
+                    <br>
+                    <br>
+                    <select name="form-eventos" id="form-field-evento" required class="informaçoes"> 
+                    	<option value="casamento">Casamento</option>
+                    	<option value="aniversário">Aniversário</option>
+                    	<option value="corporativo">Corporativo</option>
+                    </select>
+                    <br>
+                    <br>
+                    <input id="form-pessoas" type="number" name="pessoas" placeholder="Quantidade total de pessoas, incluindo adultos e crianças" required class="informaçoes">
+                    <br>
+                    <br>
+                    <input type="Text" name="local" placeholder="Local do evento" required class="informaçoes">
+                    <br>
+                    <br>
+                    <input type="Text" name="Nome do espaço" placeholder="Nome do espaço" required class="informaçoes">
+                    <br>
+                    <br>
+                    <textarea rows="4" cols="10" placeholder="Mensagem" class="informaçoes"></textarea>
+                    <input type="submit" value="Enviar orçamento" id="submit">
+				</form>
+		</div>
+
+        <div class="footer">
+	        <ul>
+	            <li>
+	                <a href="https://www.google.com/maps/place/R.+Oscar+Freire,+S%C3%A3o+Paulo+-+SP/@-23.560524,-46.6740433,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce57806e5988d9:0xa38687ec90914aa3!8m2!3d-23.560524!4d-46.6718546" target="_blank"><i class="fas fa-map-marked-alt"></i></a>
+	                <p>Rua Oscar Freire, Jardim Paulista-350</p>
+	            </li>
+	            <li>
+	                <i class="fab fa-whatsapp"></i>
+	                <p>Chame no whatsapp</p>
+	            </li>
+	             <li>
+	                <i class="fas fa-at"></i>
+	                <p>Envie um email para nós</p>
+	            </li>
+	        </ul>
+    	</div>
+
+	</div>
+
+
+
+</body>
+</html>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
