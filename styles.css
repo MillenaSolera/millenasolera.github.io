@@ -1,0 +1,154 @@
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Teko', sans-serif;
+}
+
+header{
+    background-color: #E54F6D;
+    color: #FBFAF8;
+    border-bottom: #617073 solid 2px;
+    position: relative;
+    display: flex;
+    height: 80px;
+}
+#home{
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+header ul{
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+
+}
+header li{
+    list-style: none;
+	text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover {
+    color: #617073;
+    transition: 0.2s;
+}
+
+.div-background{
+    background-color: #FBFAF8;
+    height: 350px;
+    display: flex;
+}
+.div-background div{
+    padding: 40px;
+    margin-right: 550px;
+    margin-left: 50px;
+    color: #617073;
+    font-size: 20px;
+}
+.div-background img{
+    height: 325px;
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 180px;
+    border: solid 3px #E54F6D;
+}
+
+#ABOUT{
+    background-color: #617073;
+    height: 90px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    color:#FBFAF8;
+    border-bottom: solid 2px #E54F6D;
+}
+.topics{
+    padding: 40px;
+    display: flex;
+    background-color: #FBFAF8;
+    justify-content: center;
+}
+.topics div{
+    margin: 30px;
+    width: 400px;
+    font-size: 20px;
+}
+.topics h3{
+    color: #E54F6D;
+    font-size: 25px;
+    border-bottom: solid 1px #E54F6D;
+}
+.topics p{
+    padding-top: 20px;
+}
+
+#PROJECTS{
+    display: flex;
+    background-color:  #E54F6D;
+    color: #FBFAF8;
+    border-bottom: solid 2px #fff;
+    border-top: solid 1px #FF5666;
+}
+#PROJECTS h2{
+    margin-right: 530px;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    text-align: left;
+}
+#PROJECTS p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+.container-projects{
+    background-color: #617073;
+    color: #FBFAF8;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.container-projects div{
+    margin: 60px;
+    text-align: center;
+}
+
+.container-projects div img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 3px #E54F6D ;
+}
+
+footer{
+    background-color: #E54F6D;
+    color: #FBFAF8;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+footer div{
+    margin: 20px;
+    margin-top: 60px;
+}
+footer img{
+    height: 50px;
+    width: 50px;
+}
