@@ -9,11 +9,12 @@ html{
     font-family: 'Teko', sans-serif;
 }
 
+
 header{
-    background-color: #E54F6D;
+    background-color: #0B132B;
     color: #FBFAF8;
-    border-bottom: #617073 solid 2px;
-    position: relative;
+    position: fixed;
+    width: 100%;
     display: flex;
     height: 80px;
 }
@@ -27,7 +28,6 @@ header ul{
     position: absolute;
     right: 0;
     margin-right: 20px;
-
 }
 header li{
     list-style: none;
@@ -47,38 +47,54 @@ header a:hover {
 }
 
 .div-background{
-    background-color: #FBFAF8;
-    height: 350px;
+    background-color: #0B132B;
+    position: inherit;
+    border-bottom: solid 3px #fff;
+    height: 450px;
     display: flex;
 }
 .div-background div{
     padding: 40px;
     margin-right: 550px;
     margin-left: 50px;
-    color: #617073;
+    margin-top: 100px;
+    color: #fff;
     font-size: 20px;
 }
 .div-background img{
     height: 325px;
     width: 300px;
-    margin-top: 10px;
+    margin-top: 100px;
+    margin-right: 50px;
     border-radius: 180px;
-    border: solid 3px #E54F6D;
+    
 }
 
 #ABOUT{
-    background-color: #617073;
-    height: 90px;
-    padding-top: 20px;
-    text-align: center;
+    background-color: #FFFDF7;
+    height: 250px;
+    display: flex;
+    color:#0B132B;
+    border-bottom: solid 2px #0B132B;
+}
+#ABOUT h2{
+    margin-right: 50px;
+    margin-left: 100px;
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+#ABOUT p{
     font-size: 25px;
-    color:#FBFAF8;
-    border-bottom: solid 2px #E54F6D;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-left: 300px;
+    
 }
 .topics{
     padding: 40px;
     display: flex;
-    background-color: #FBFAF8;
+    background-color: #FFFDF7;
     justify-content: center;
 }
 .topics div{
@@ -87,38 +103,39 @@ header a:hover {
     font-size: 20px;
 }
 .topics h3{
-    color: #E54F6D;
+    color: #0B132B;
     font-size: 25px;
-    border-bottom: solid 1px #E54F6D;
+    border-bottom: solid 1px #0B132B;
 }
 .topics p{
     padding-top: 20px;
 }
 
 #PROJECTS{
-    display: flex;
-    background-color:  #E54F6D;
-    color: #FBFAF8;
-    border-bottom: solid 2px #fff;
-    border-top: solid 1px #FF5666;
+    background-color:  #0B132B;
+    color: #FFFDF7;
+    border-bottom: solid 2px #0B132B;
+
 }
 #PROJECTS h2{
-    margin-right: 530px;
-    font-size: 40px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 40px;
     text-align: left;
+    font-size: 40px;
+    border-bottom: solid 3px #FFFDF7 ;
+    width: 270px;
 }
 #PROJECTS p{
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 35px;
     font-size: 25px;
 }
 
 .container-projects{
-    background-color: #617073;
-    color: #FBFAF8;
+    background-color: #0B132B;
+    color: #FFFDF7;
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -133,20 +150,61 @@ header a:hover {
     height: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: solid 3px #E54F6D ;
+    border: solid 3px #0B132B ;
 }
 
-footer{
-    background-color: #E54F6D;
+#personal-project{
+    background-color:  #FFFDF7;
+    color: #0B132B;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 30px;
+    border-bottom: solid 3px #0B132B ;
+    width: 270px;
+}
+
+.personal-project-container{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+    .personal-project-container p{  
+        width: 400px;
+        font-size: 25px;
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 25px;
+}
+        .personal-project-container a{
+            color: #27D920;
+            font-size: 35px;
+            text-decoration: none;
+        }
+        .personal-project-container img{
+            width: 300px;
+        }
+
+#redes{
+    background-color: #0B132B;
     color: #FBFAF8;
-    height: 200px;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+footer{
+    background-color: #0B132B;
+    color: #FBFAF8;
+    height: 150px;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 footer div{
     margin: 20px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 footer img{
     height: 50px;
