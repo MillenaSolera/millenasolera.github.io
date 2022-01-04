@@ -139,11 +139,12 @@ header a:hover {
     font-size: 25px;
     display: flex;
     justify-content: center;
-    text-decoration: none;
+    
 }
 .container-projects div{
     margin: 60px;
     text-align: center;
+    text-decoration: none;
 }
 
 .container-projects div img{
